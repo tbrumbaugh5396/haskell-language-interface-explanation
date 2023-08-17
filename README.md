@@ -14,7 +14,7 @@ The order to include in the script:
 - specify the haskell packages to include
 - specify the program to run the script (run ghc) 
 
-'''
+```
 #! /usr/bin/env nix-shell
 #! nix-shell -p "haskellPackages.ghcWithPackages (pkgs: [pkgs.brick])"
 #! nix-shell -i runghc
@@ -29,4 +29,4 @@ ui = str "Hello, world!"
 
 main :: IO ()
 main = simpleMain ui
-'''
+```
