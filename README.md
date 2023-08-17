@@ -21,7 +21,6 @@ The order to include in the script:
 
 module Main where
 
-
 import Brick
 
 ui :: Widget ()
